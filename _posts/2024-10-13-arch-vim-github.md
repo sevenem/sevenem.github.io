@@ -53,4 +53,5 @@ I had trouble pushing the repo changes to github. I got this error (among others
 >git push -uf origin main 
 
 -make sure you include a comment when pushing
+
 -when you click 'pull' on the github website, make sure you pull on the correct branch
