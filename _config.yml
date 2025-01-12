@@ -20,6 +20,7 @@ author: Tom O'Sullivan
 ###############################################
 
 navbar-links:
+  Tournatube: "tournatube"
   About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
