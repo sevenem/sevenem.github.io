@@ -8,7 +8,7 @@ comments: true
 
 **idea**
 
-I love watching Dota 2 professional games and I hate spoilers. Unfortunately, [eventvods](eventvods.com) stopped covering Dota 2 two years ago.
+I love watching Dota 2 professional games and I hate spoilers. Unfortunately, [eventvods](www.eventvods.com) stopped covering Dota 2 two years ago.
 
 **enter Tournatube**
 
