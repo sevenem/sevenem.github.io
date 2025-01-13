@@ -24,7 +24,7 @@ permalink: /tournatube.html
             width: 100%;
             overflow: hidden;
             aspect-ratio: 16/9;
-            pointer-events: none;
+            pointer-events: auto;
         }
         .yt-embed-holder iframe{
             width: 300%;
