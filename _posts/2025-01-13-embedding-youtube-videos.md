@@ -4,7 +4,7 @@ title: Embedding YouTube Videos
 subtitle: The beginning of Tournatube
 tags: [Dota 2, tournament, streaming]
 ---
-<style>
+/* <style>
 .box-note {
   background-color: #385170;
   border-left-color: #9fd3c7;
@@ -13,6 +13,7 @@ code {
   color: #fdb44b;
 }
 </style>
+*/
 
 **Embedding YouTube videos and customising them for spoiler free watching**
 
@@ -25,12 +26,12 @@ It was surprisingly easy to embed a link without controls. I created a test solu
 {: .box-note}
 Check [YouTube's up to date player parameters](https://developers.google.com/youtube/player_parameters) before going ahead as things might have changed. Note that we can add other parameters as needed, such as end time with **&end**.
 
-~~~
+```
 <iframe src="https://www.youtube.com/embed/YOUTUBEVIDEOID&start=NUMBEROFSECONDSFROMVIDEOSTARTTOYOURDESIREDSTARTTIME&disablekb=0&fs=1&showinfo=0&autoplay=1&controls=0&color=white&rel=0&playsinline=1&enablejsapi=1"
     title="YouTube Video Player" frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen></iframe>
-~~~
+```
 
 Here is an example of the above html in action. Note that we can't see the timeline, but can still see the title of the video in the video overlay. We can use the spacebar and arrow keys to navigate the video.
 
