@@ -11,7 +11,6 @@ tags: [Dota 2, tournament, streaming]
 }
 code {
   color: #fdb44b;
-  background-color: #00204a;
 }
 </style>
 
