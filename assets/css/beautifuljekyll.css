@@ -871,11 +871,11 @@ code {
   border-radius: 0.25rem;
 }
 
-pre code {
+/* pre code {
   padding: 0;
   background-color: transparent;
   border-radius: 0;
-}
+} */
 
 pre {
   font-size: 0.875rem;
@@ -883,12 +883,15 @@ pre {
   border-radius: 0.25rem;
   padding: 0.59375rem;
 }
+/*
 .highlight pre {
   border: none;
   background: none;
   margin: 0;
-}
-.highlight > pre {
+} */
+
+/*
+.highlight > pre { 
   background-image: linear-gradient(
     rgba(0,0,0,0.03), rgba(0,0,0,0.03) 1.5em, rgba(0,0,0,0.02) 1.5em, rgba(0,0,0,0.02) 3em);
   background-size: auto 3em;
@@ -896,22 +899,29 @@ pre {
   border: 1px solid rgba(0,0,0,0.1);
   border-left: 0.4375rem solid #444;
 }
+*/
+
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;
 }
+/*
 .highlight table,
 .highlight tr,
-.highlight td { /* to be removed after fixing table styles */
+.highlight td {
   border: none;
   background: none;
   padding: 0;
   margin: 0;
 }
+*/
+
+/*
 .highlight pre.lineno {
   color: rgba(0,0,0,0.3);
   border-radius: 0;
   border-right: 2px solid #444;
 }
+*/
 
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
