@@ -10,7 +10,8 @@ tags: [Dota 2, tournament, streaming]
   border-left-color: #9fd3c7;
 }
 code {
-  color: #ececec;
+  color: #fdb44b;
+  background-color: #00204a;
 }
 </style>
 
