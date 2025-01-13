@@ -867,7 +867,6 @@ table tr td :last-child {
 code {
   padding: 0.125rem 0.25rem;
   color: #fdb44b;
-  background-color: #00204a;
   border-radius: 0.25rem;
 }
 
@@ -876,13 +875,14 @@ code {
   background-color: transparent;
   border-radius: 0;
 } */
-
+/*
 pre {
   font-size: 0.875rem;
   line-height: 1.5em;
   border-radius: 0.25rem;
   padding: 0.59375rem;
 }
+*/
 /*
 .highlight pre {
   border: none;
@@ -900,7 +900,7 @@ pre {
   border-left: 0.4375rem solid #444;
 }
 */
-
+/*
 .highlight > pre:not([class~="highlight"]) { /* code block with line number */
   padding: 0;
 }
