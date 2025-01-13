@@ -13,7 +13,7 @@ Tournatube is my first web project. The idea is to create a place to watch strea
 
 It was surprisingly easy to embed a link without controls. I created a test solution [here](/tournatube).
 
-{: .box-success}
+{: .box-note}
 Check [YouTube's up to date player parameters](https://developers.google.com/youtube/player_parameters) before going ahead as things might have changed. Note that we can add other parameters as needed, such as end time with **&end**.
 
 ~~~
@@ -41,13 +41,13 @@ Now we need to add CSS to hide the video title and other YouTube buttons, set th
 
 Wrap the iframe player in this div.
 
-~~
+~~~
 <div class="yt-embed-holder">
   </div>
-~~
+~~~
 
 Add this custom CSS to the page.
-~~
+~~~
 <style>
     body {
         background-color: #000;
@@ -64,7 +64,7 @@ Add this custom CSS to the page.
         margin-left: -100%;
     }
 </style>
-~~
+~~~
 
 Note that you may need to allow video and audio autoplay in your browser.
 ![autoplay setting in Firefox](/assets/img/autoplay.png)
