@@ -4,16 +4,6 @@ title: Embedding YouTube Videos
 subtitle: The beginning of Tournatube
 tags: [Dota 2, tournament, streaming]
 ---
-/* <style>
-.box-note {
-  background-color: #385170;
-  border-left-color: #9fd3c7;
-}
-code {
-  color: #fdb44b;
-}
-</style>
-*/
 
 **Embedding YouTube videos and customising them for spoiler free watching**
 
